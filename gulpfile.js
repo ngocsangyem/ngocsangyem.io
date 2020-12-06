@@ -179,10 +179,12 @@ function deployPage() {
 	return gulp.src('./_site/**/*').pipe(deploy());
 }
 
-function watch() {
+function watch(done) {
 	gulp.watch('./_assets/**/*.scss', styles);
 	gulp.watch('./_assets/**/*.js', scripts);
 	gulp.watch('./_assets/images/**/*.{jpg,jpeg,gif,svg,png}', images);
+
+	done();
 }
 
 function purgeCSS() {
