@@ -170,7 +170,7 @@ function html() {
 
 function images() {
 	return gulp
-		.src('./_assets/images/**/*.{jpg,jpeg,gif,svg,png}')
+		.src('./_assets/images/**/*')
 		.pipe($.if(args.production, $.imagemin()))
 		.pipe(gulp.dest('./assets/images'));
 }
@@ -182,7 +182,7 @@ function deployPage() {
 function watch(done) {
 	gulp.watch('./_assets/**/*.scss', styles);
 	gulp.watch('./_assets/**/*.js', scripts);
-	gulp.watch('./_assets/images/**/*.{jpg,jpeg,gif,svg,png}', images);
+	gulp.watch('./_assets/images/**/*', images);
 
 	done();
 }

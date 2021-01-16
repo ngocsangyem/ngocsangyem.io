@@ -10085,6 +10085,10 @@ img:hover {
   max-height: 80px;
 }
 
+.navbar-brand svg {
+  height: 3.5rem;
+}
+
 .sidebar {
   position: fixed;
   left: 0px;
