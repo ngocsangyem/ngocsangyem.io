@@ -51,7 +51,6 @@ plugins:
     - jekyll-archives
     - jekyll-figure
     - jekyll-minifier
-    # - jekyll-pwa-plugin
 jekyll-archives:
     enabled:
         - categories
@@ -160,11 +159,11 @@ codepen:
     preview: false
     default_tab: result
 pwa:
-    enabled: false # Optional
+    enabled: true # Optional
     sw_src_filepath: service-worker.js # Optional
     sw_dest_filename: service-worker.js # Optional
     dest_js_directory: assets/js/plugins # Required
-    precache_recent_posts_num: 15 # Optional
+    precache_recent_posts_num: 10 # Optional
     precache_glob_directory: / # Optional
     precache_glob_patterns: # Optional
         - '{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}'
