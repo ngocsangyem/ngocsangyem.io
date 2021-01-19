@@ -13,14 +13,11 @@ const cssDeclarationSorter = require('css-declaration-sorter');
 const autoprefixer = require('autoprefixer');
 const Fiber = require('fibers');
 const gcmq = require('gulp-group-css-media-queries');
-const TerserPlugin = require('terser-webpack-plugin');
 ('./node_modules/bootstrap/scss/bootstrap.scss');
 const args = minimist(process.argv.slice(2));
 const deploy = require('gulp-gh-pages');
 const postCssPlugins = [
-	autoprefixer({
-		grid: true,
-	}),
+	autoprefixer(),
 	cssDeclarationSorter({
 		order: 'concentric-css',
 	}),
@@ -29,6 +26,7 @@ const postCssPlugins = [
 
 const webpackConfig = {
 	mode: !args.production ? 'development' : 'production',
+	target: 'web',
 	output: {
 		filename: 'app.js',
 	},
@@ -56,16 +54,6 @@ const webpackConfig = {
 		],
 	},
 };
-
-if (args.production) {
-	webpackConfig.plugins.push(
-		new TerserPlugin({
-			cache: true,
-			parallel: true,
-			extractComments: 'all',
-		})
-	);
-}
 
 // Error handle
 const reportError = function (error) {
@@ -148,9 +136,9 @@ function styles() {
 				precision: 10,
 			})
 		)
-		.pipe($.if(args.production, stripCssComments()))
 		.pipe($.if(args.production, gcmq()))
 		.pipe($.if(args.production, $.postcss(postCssPlugins)))
+		.pipe($.if(args.production, stripCssComments()))
 		.pipe($.if(!args.production, $.sourcemaps.write('./')))
 		.pipe(gulp.dest('./assets/css/'));
 }
