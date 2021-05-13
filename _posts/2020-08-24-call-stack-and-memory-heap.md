@@ -18,7 +18,7 @@ There are two most important things in this step:
 
 -   With the `Call Stack`, we have a place to keep track of where we are in the code. So with that we can run the code in order.
 
-#### Memeory Heap
+#### Memory Heap
 
 Memory heap is simply a free store. It's a large region in memory that the Javascript engine provides for us which can be used to store any type of arbitrary data in an unordered fashion.
 
