@@ -19,6 +19,7 @@ body {
 
 a {
 	color: darken($primary, 24%);
+	text-decoration-color: transparent;
 
 	&:hover {
 		text-decoration: none;
