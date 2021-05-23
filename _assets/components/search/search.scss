@@ -35,6 +35,7 @@
 		display: flex;
 		left: unset;
 		z-index: 0;
+		justify-content: flex-end;
 	}
 
 	@media (max-width: 480px) {
