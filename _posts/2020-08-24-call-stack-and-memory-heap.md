@@ -3,7 +3,7 @@ layout: post
 title: 'Call Stack and Memory Heap'
 author: Sang
 categories: [Javascript]
-image: assets/images/08_2020/Call_Stack_and_Memory_Heap.jpeg
+image: assets/images/webp/08_2020/Call_Stack_and_Memory_Heap.webp
 rating: false
 comments: false
 ---

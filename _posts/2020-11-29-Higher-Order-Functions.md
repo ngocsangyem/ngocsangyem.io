@@ -3,14 +3,14 @@ layout: post
 title: 'Higher Order Functions'
 author: Sang
 categories: [Javascript]
-image: assets/images/11_2020/higher_order_function.png
+image: assets/images/webp/11_2020/higher_order_function.webp
 rating: false
 comments: false
 ---
 
 > Higher order functions - HOF are simply a function that can take a function as an argument or a function that returns another function.
 
-{% responsive_image path: assets/images/12_2020/HOF_Goku.png alt: 'Higher Order Functions'%}
+{% responsive_image path: assets/images/webp/12_2020/HOF_Goku.webp alt: 'Higher Order Functions'%}
 
 Most of us know what a HOF are but don't really understand why they are useful and why we are?!
 

@@ -3,7 +3,7 @@ layout: post
 title: 'What is Data Binding?'
 author: Sang
 categories: [Angular]
-image: assets/images/07_2020/angular_databinding.png
+image: assets/images/webp/07_2020/angular_databinding.webp
 rating: false
 comments: false
 ---
@@ -18,11 +18,11 @@ We get different ways of commucation, for example:
 
 We want to output data from our Typescript code to the HTML code - the template. We can use `string interpolation`.
 
-{% responsive_image path: assets/images/07_2020/angular_string_interpolation.png alt: 'string interpolation'%}
+{% responsive_image path: assets/images/webp/07_2020/angular_string_interpolation.webp alt: 'string interpolation'%}
 
 Or `property binding`.
 
-{% responsive_image path: assets/images/07_2020/angular_property_binding.png alt: 'property binding'%}
+{% responsive_image path: assets/images/webp/07_2020/angular_property_binding.webp alt: 'property binding'%}
 
 ### Event binding
 

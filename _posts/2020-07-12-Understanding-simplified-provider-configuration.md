@@ -3,7 +3,7 @@ layout: post
 title: 'Understanding simplified provider configuration (Part 2)'
 author: Sang
 categories: [Angular]
-image: assets/images/07_2020/dependencies_injection_2.png
+image: assets/images/webp/07_2020/dependencies_injection_2.webp
 rating: false
 comments: false
 ---

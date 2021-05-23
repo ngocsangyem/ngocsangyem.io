@@ -3,7 +3,7 @@ layout: post
 title: 'Height transition'
 author: Sang
 categories: [CSS, 30 seconds of knowledge]
-image: assets/images/08_2020/css_height.jpg
+image: assets/images/webp/08_2020/css_height.webp
 rating: false
 comments: false
 ---

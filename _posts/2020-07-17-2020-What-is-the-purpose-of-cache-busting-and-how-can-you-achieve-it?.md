@@ -3,7 +3,7 @@ layout: post
 title: 'What is the purpose of cache busting and how can you achieve it?'
 author: Sang
 categories: [30 seconds of knowledge, Tricks]
-image: assets/images/07_2020/cache-busting.jpg
+image: assets/images/webp/07_2020/cache-busting.webp
 rating: false
 comments: false
 ---

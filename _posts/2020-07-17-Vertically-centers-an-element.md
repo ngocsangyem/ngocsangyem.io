@@ -3,7 +3,7 @@ layout: post
 title: 'Vertically centers an element without flexbox'
 author: Sang
 categories: [30 seconds of knowledge, Tricks, Css]
-image: assets/images/07_2020/ghost_trick.png
+image: assets/images/webp/07_2020/ghost_trick.webp
 rating: false
 comments: false
 ---

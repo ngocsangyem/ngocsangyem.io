@@ -3,7 +3,7 @@ layout: post
 title: 'Context vs Scope'
 author: Sang
 categories: [Javascript]
-image: assets/images/11_2020/scope_vs_context.jpeg
+image: assets/images/webp/11_2020/scope_vs_context.webp
 rating: false
 comments: false
 ---

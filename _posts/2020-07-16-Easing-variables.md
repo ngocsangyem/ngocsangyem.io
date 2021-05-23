@@ -3,7 +3,7 @@ layout: post
 title: 'Easing variables'
 author: Sang
 categories: [Css, 30 seconds of knowledge]
-image: assets/images/07_2020/easing_variables.png
+image: assets/images/webp/07_2020/easing_variables.webp
 rating: false
 comments: false
 ---

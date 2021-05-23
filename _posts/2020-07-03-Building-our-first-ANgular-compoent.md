@@ -3,7 +3,7 @@ layout: post
 title: 'Building our first Angular component'
 author: Sang
 categories: [Angular]
-image: assets/images/07_2020/angular_component.jpeg
+image: assets/images/webp/07_2020/angular_component.webp
 rating: false
 comments: false
 ---
@@ -48,7 +48,7 @@ The component we get in `app.component.html` is `card` similar to this one.
 
 Result:
 
-{% responsive_image path: assets/images/07_2020/app_card.png alt: 'Card component result'%}
+{% responsive_image path: assets/images/webp/07_2020/app_card.webp alt: 'Card component result'%}
 
 Now imagine that our application has several places where we would like to display `card`. And we don't want to repeat these HTML everywhere on the application. Also the data that we are displaying in the `card` might be dynamic. We might have multiple `card` such as a list of cards is displayed and we want to pass to each card the data that we are retrieving from the Back-end instead of hard coding everything on the Front-end.
 

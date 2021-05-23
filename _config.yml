@@ -12,8 +12,8 @@ manifest_start_url: 'https://ngocsangyem.io/'
 manifest_orientation: 'natural'
 manifest_related_applications: '[]'
 manifest_prefer_related_applications: false
-logo: assets/images/logo.png
-favicon: assets/images/logo.png
+logo: assets/images/webp/logo.webp
+favicon: assets/images/webp/logo.webp
 baseurl: ''
 google_analytics: UA-xxxxxxxx-1
 disqus: demowebsite
@@ -27,7 +27,7 @@ authors:
     Sang:
         name: Sang Nguyen
         display_name: Sang
-        avatar: assets/images/one_avatar.jpg
+        avatar: assets/images/webp/one_avatar.webp
         email: nnsang24@gmail.com
         web: 'https://ngocsangyem.github.io'
         twitter: 'https://twitter.com/ngocsangyem'

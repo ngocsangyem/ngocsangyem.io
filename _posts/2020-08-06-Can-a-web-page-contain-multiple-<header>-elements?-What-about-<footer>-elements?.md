@@ -3,7 +3,7 @@ layout: post
 title: 'Can a web page contain multiple <header> elements? What about <footer> elements?'
 author: Sang
 categories: [HTML, 30 seconds of knowledge]
-image: assets/images/08_2020/html_tag.png
+image: assets/images/webp/08_2020/html_tag.webp
 rating: false
 comments: false
 ---

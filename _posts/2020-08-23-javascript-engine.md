@@ -3,7 +3,7 @@ layout: post
 title: 'Javascript engine'
 author: Sang
 categories: [Javascript]
-image: assets/images/08_2020/javascript_engine.jpeg
+image: assets/images/webp/08_2020/javascript_engine.webp
 rating: false
 comments: false
 ---
@@ -14,7 +14,7 @@ We know that Javascript engine takes our written Javascript code and does someth
 
 #### Inside the engine
 
-{% responsive_image path: assets/images/08_2020/inside_javascript_engine3.png alt: 'Inside the javascript engine'%}
+{% responsive_image path: assets/images/webp/08_2020/inside_javascript_engine3.webp alt: 'Inside the javascript engine'%}
 
 We give it a Javascript file and first it does something called `lexical analysis` which breaks the code into something called `tokens` to identify their meaning.
 

@@ -3,7 +3,7 @@ layout: post
 title: 'What is the difference between null and undefined?'
 author: Sang
 categories: [CSS, 30 seconds of knowledge]
-image: assets/images/08_2020/null_undefined.png
+image: assets/images/webp/08_2020/null_undefined.webp
 rating: false
 comments: false
 ---

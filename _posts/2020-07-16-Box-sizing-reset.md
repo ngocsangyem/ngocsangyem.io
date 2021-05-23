@@ -3,7 +3,7 @@ layout: post
 title: 'Box-sizing reset'
 author: Sang
 categories: [CSS, 30 seconds of knowledge]
-image: assets/images/07_2020/box-sizing.jpg
+image: assets/images/webp/07_2020/box-sizing.webp
 rating: false
 comments: false
 ---

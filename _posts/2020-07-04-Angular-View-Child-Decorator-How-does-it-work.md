@@ -3,7 +3,7 @@ layout: post
 title: 'Angular View Child Decorator - How does it work?'
 author: Sang
 categories: [Angular]
-image: assets/images/07_2020/angular_view_child.jpg
+image: assets/images/webp/07_2020/angular_view_child.webp
 rating: false
 comments: false
 ---
@@ -46,7 +46,7 @@ export class CardComponent implements OnInit {
 }
 ```
 
-{% responsive_image path: assets/images/07_2020/demo_card_code.png alt: 'Demo card html'%}
+{% responsive_image path: assets/images/webp/07_2020/demo_card_code.webp alt: 'Demo card html'%}
 
 So in that case what we want to do is perform a `template query` for obtaining a reference to an element template - an access at the level of our component class. That's what the `@ViewChild` and `@ViewChildren` decorators for.
 
@@ -102,7 +102,7 @@ export class AppComponent {
 
 Open the console and let's have a look at what gets printed when we click the button on view.
 
-{% responsive_image path: assets/images/07_2020/viewchild_card.png alt: 'Demo card html'%}
+{% responsive_image path: assets/images/webp/07_2020/viewchild_card.webp alt: 'Demo card html'%}
 
 As you can see `ViewChild` decorator is a template quering mechanism. We can use it to get references to any element in the template.
 

@@ -8,6 +8,7 @@ const cssnano = require('cssnano');
 const del = require('del');
 const webpackstream = require('webpack-stream');
 const stripCssComments = require('gulp-strip-css-comments');
+const imageminWebp = require('imagemin-webp');
 
 const cssDeclarationSorter = require('css-declaration-sorter');
 const autoprefixer = require('autoprefixer');
@@ -163,6 +164,18 @@ function images() {
 		.pipe(gulp.dest('./assets/images'));
 }
 
+function imagesWebp() {
+	return gulp
+		.src('./_assets/images/**/*')
+		.pipe($.webp())
+		.pipe($.if(args.production, $.imagemin({
+			plugins: [
+				imageminWebp({quality: 50})
+			]
+		})))
+		.pipe(gulp.dest('./assets/images/webp'));
+}
+
 function deployPage() {
 	return gulp.src('./_site/**/*').pipe(deploy());
 }
@@ -186,11 +199,11 @@ function purgeCSS() {
 		.pipe(gulp.dest('build/css'));
 }
 
-const build = gulp.series(styles, scripts, images, watch);
+const build = gulp.series(gulp.parallel(styles, scripts, images, imagesWebp), watch);
 gulp.task('build', build);
 
 exports.default = gulp.series(clean, build);
-exports.build = gulp.series(styles, scripts, images);
+exports.build = gulp.series(styles, scripts, images, imagesWebp);
 exports.styles = styles;
 exports.scripts = scripts;
 exports.clean = clean;

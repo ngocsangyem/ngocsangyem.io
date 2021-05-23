@@ -3,7 +3,7 @@ layout: post
 title: 'Javascript types'
 author: Sang
 categories: [Javascript]
-image: assets/images/11_2020/javascript_types.jpg
+image: assets/images/webp/11_2020/javascript_types.webp
 rating: false
 comments: false
 ---
@@ -51,7 +51,7 @@ As you see the code above, you might think that Javascript also have function ty
 
 > Arrays and Functions are Objects
 
-{% responsive_image path: assets/images/11_2020/array_function.png alt: 'Arrays and Functions are Objects'%}
+{% responsive_image path: assets/images/webp/11_2020/array_function.webp alt: 'Arrays and Functions are Objects'%}
 
 Event though `typeof function` gives us a function but underneath the hood a function in Javascript is just an object.
 

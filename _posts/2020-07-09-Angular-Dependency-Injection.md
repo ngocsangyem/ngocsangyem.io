@@ -3,7 +3,7 @@ layout: post
 title: 'Angular Dependency Injection'
 author: Sang
 categories: [Angular]
-image: assets/images/07_2020/dependencies_injection_1.jpg
+image: assets/images/webp/07_2020/dependencies_injection_1.webp
 rating: false
 comments: false
 ---
@@ -70,7 +70,7 @@ export class PhotosService {
 ```
 We can see our application is broken and if the have a look in console. We will see the following error message: `No provider for PhotosService!`
 
-{% responsive_image path: assets/images/07_2020/Dependency_error_1.png alt: 'Dependency error'%}
+{% responsive_image path: assets/images/webp/07_2020/Dependency_error_1.webp alt: 'Dependency error'%}
 
 What this message mean is that somewhere in our application, for example here the application component. We are trying to inject the `PhotosService` but the dependency system of Angular `does not know` how to create this dependency. So the question here is what is the `provider`?!
 

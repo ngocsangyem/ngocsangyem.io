@@ -3,7 +3,7 @@ layout: post
 title: 'What is recursion and when is it useful?'
 author: Sang
 categories: [Javascript, Recursion, 30 seconds of knowledge]
-image: assets/images/07_2020/recursion.jpg
+image: assets/images/webp/07_2020/recursion.webp
 rating: false
 comments: false
 ---

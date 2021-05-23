@@ -3,7 +3,7 @@ layout: post
 title: 'Understanding the Role of AppModule and Component Declaration'
 author: Sang
 categories: [Angular]
-image: assets/images/06_2020/angular_components.png
+image: assets/images/webp/06_2020/angular_components.webp
 rating: false
 comments: false
 
@@ -11,7 +11,7 @@ comments: false
 
 Angular use components to build web pages and use modules to basically bundle different pieces. For example components of our app into package.
 
-{% responsive_image path: assets/images/06_2020/modules.png alt: 'Placeholder'%}
+{% responsive_image path: assets/images/webp/06_2020/modules.webp alt: 'Placeholder'%}
 
 As you can see, It's also just an emty class Typescrip class like our component. As the component, we transform it into something else by adding a decorator. Here, It's the **@NgModule** decorator which is also imported from _@angular/core_
 

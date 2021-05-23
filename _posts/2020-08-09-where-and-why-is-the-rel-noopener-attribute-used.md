@@ -3,7 +3,7 @@ layout: post
 title: 'Where and why is the rel="noopener" attribute used?'
 author: Sang
 categories: [HTML, 30 seconds of knowledge]
-image: assets/images/08_2020/rel_noopener2.jpg
+image: assets/images/webp/08_2020/rel_noopener2.webp
 rating: false
 comments: false
 ---

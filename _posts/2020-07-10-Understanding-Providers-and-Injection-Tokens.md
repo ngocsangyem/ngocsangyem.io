@@ -3,7 +3,7 @@ layout: post
 title: 'Understanding Providers and Injection Tokens (Part 1)'
 author: Sang
 categories: [Angular]
-image: assets/images/07_2020/dependencies_injection_2.png
+image: assets/images/webp/07_2020/dependencies_injection_2.webp
 rating: false
 comments: false
 ---
@@ -14,7 +14,7 @@ We will continue to use [this example](https://github.com/ngocsangyem/angular-de
 
 Now we remove `providedIn` property in the configuration of the `photos.service.ts` file, we will get the error message `No provider for PhotosService!`. Don't worry we will fix this issue in the manualy way.
 
-{% responsive_image path: assets/images/07_2020/Dependency_error_1.png alt: 'Dependency error'%}
+{% responsive_image path: assets/images/webp/07_2020/Dependency_error_1.webp alt: 'Dependency error'%}
 
 > A provider is simply a function that we need to pass to the Angular dependency injection system and that function is going to be called by the dependency injection system and provide the dependency that it is needed.
 
@@ -100,7 +100,7 @@ So let's review what we did in order to solve `No provider for PhotosService!`. 
 
 Let's save and refresh our server...hmmm...we still get an error.
 
-{% responsive_image path: assets/images/07_2020/Dependency_error_2.png alt: 'Dependency error'%}
+{% responsive_image path: assets/images/webp/07_2020/Dependency_error_2.webp alt: 'Dependency error'%}
 
 So the dependency injection system at this point is trying to call the factory function in order to create the `PhotosService`. But the problem is it does not know how to get the http dependency. Angular can not access the parameter of the factory function and determine what dependencies are needed. To solve this, we need to use another property called `deps`. This property is an array, it take multuple dependencies needed by the `photosServiceProvider()`, in this case is the `HttpClient`.
 

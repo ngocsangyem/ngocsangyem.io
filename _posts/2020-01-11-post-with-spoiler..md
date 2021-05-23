@@ -4,7 +4,7 @@ title:  "Spoliers Inside - a film review needs hidden spoilers like this post"
 author: Sang
 categories: [ Markdown ]
 tags: [ Markdown ]
-image: assets/images/12.jpg
+image: assets/images/webp/12.webp
 published : true
 ---
 

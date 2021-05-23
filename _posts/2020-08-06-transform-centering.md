@@ -3,7 +3,7 @@ layout: post
 title: 'Transform centering'
 author: Sang
 categories: [CSS, 30 seconds of knowledge]
-image: assets/images/08_2020/css_transform.jpg
+image: assets/images/webp/08_2020/css_transform.webp
 rating: false
 comments: false
 ---

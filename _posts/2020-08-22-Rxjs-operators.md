@@ -3,7 +3,7 @@ layout: post
 title: 'Rxjs operators'
 author: Sang
 categories: [Rxjs, Angular]
-image: assets/images/08_2020/pipe.jpeg
+image: assets/images/webp/08_2020/pipe.webp
 rating: false
 comments: false
 ---
@@ -35,7 +35,7 @@ We don't want our application to do multiple HTTP request to fetch the exact sam
 
 #### concatMap
 
-{% responsive_image path: assets/images/08_2020/concatMap.png alt: 'concatMap operator'%}
+{% responsive_image path: assets/images/webp/08_2020/concatMap.webp alt: 'concatMap operator'%}
 
 We have a source observable that is emitting a series of values (1, 3, 5). Then we have a mapping function which takes an input value and then it produces an observable. These observable will emit three times the input value multiplied by 10 and then it will complete. So mapping function is the function that transforms a value into an observable.
 
@@ -45,7 +45,7 @@ We are going to listen to the values of the first onservable until it complete. 
 
 If you would like to perform multiple cal to you Back-end in parallel and fetch the results of each call as they arrive over time then you should use `mergeMap` operator.
 
-{% responsive_image path: assets/images/08_2020/mergeMap.png alt: 'mergeMap operator'%}
+{% responsive_image path: assets/images/webp/08_2020/mergeMap.webp alt: 'mergeMap operator'%}
 
 `mergeMap` is very similar to `concatMap`, we are going to take the values of the source observable and we are going to apply a mapping function that to take the value and when to produce a new observable.
 
@@ -59,7 +59,7 @@ We only complte the output observable when the source observable has completed.
 
 If we want ignore repeated event, for example is click have same value request. We can you the `exhaustMap` operator.
 
-{% responsive_image path: assets/images/08_2020/exhaustMap.png alt: 'exhaustMap operator'%}
+{% responsive_image path: assets/images/webp/08_2020/exhaustMap.webp alt: 'exhaustMap operator'%}
 
 We have the source observable that is emitting multiple values (1, 3, 5). Each value is going to transformed into a seperate observable using the mapping function which take values then return observables. These observable are going to emit multiple values and then completes. The values emitted by these observables which created from the source observable are going to be passed to the output af the exhaust map and these observable will eventually complete.
 
@@ -69,7 +69,7 @@ Mean while these observables are still active if we have earlier value emitted b
 
 Ignore dozens of unnecessary requests.
 
-{% responsive_image path: assets/images/08_2020/debounceTime.png alt: 'debounceTime operator'%}
+{% responsive_image path: assets/images/webp/08_2020/debounceTime.webp alt: 'debounceTime operator'%}
 
 This operator takes a stream of input values that is emitting values (1, 2, 3, 4, 5, 6) also a delay in miliseconds.
 
@@ -85,11 +85,11 @@ Next we have the value 2 and we started counting and now the new interval of 10 
 
 If two consecutive values are exactly the same. We only want to emit one value. We will use `distinctUntilChanged` operator
 
-{% responsive_image path: assets/images/08_2020/distinctUntilChanged.png alt: 'distinctUntilChanged operator'%}
+{% responsive_image path: assets/images/webp/08_2020/distinctUntilChanged.webp alt: 'distinctUntilChanged operator'%}
 
 #### switchMap
 
-{% responsive_image path: assets/images/08_2020/switchMap.png alt: 'switchMap operator'%}
+{% responsive_image path: assets/images/webp/08_2020/switchMap.webp alt: 'switchMap operator'%}
 
 We have the input observable that is emitting these values (1, 3, 5). We also have a mapping function, it take one value of the stream and creates an observable.
 

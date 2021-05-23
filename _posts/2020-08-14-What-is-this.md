@@ -3,7 +3,7 @@ layout: post
 title: 'What is this'
 author: Sang
 categories: [Javascript]
-image: assets/images/08_2020/this.png
+image: assets/images/webp/08_2020/this.webp
 rating: false
 comments: false
 ---

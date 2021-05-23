@@ -3,7 +3,7 @@ layout: post
 title: 'Inside the V8 engine'
 author: Sang
 categories: [Javascript]
-image: assets/images/08_2020/V8_engine.jpeg
+image: assets/images/webp/08_2020/V8_engine.webp
 rating: false
 comments: false
 ---
@@ -40,7 +40,7 @@ for (let i = 0; i < 1000; i++) {
 
 Instead of using one of the Compiler or Interpreter, we can combine these two and create something called `JIT` compiler or `Just In Time` compiler.
 
-{% responsive_image path: assets/images/08_2020/inside_javascript_engine3.png alt: 'Inside the javascript engine'%}
+{% responsive_image path: assets/images/webp/08_2020/inside_javascript_engine3.webp alt: 'Inside the javascript engine'%}
 
 We `Parser` the code then turn it to an `Abstract Syntax Tree` and then this code initially goes to an `Interpreter`. (in V8 engine it called ignition). It takes the AST and spits out bytecode. Bytecode not as low level as machine code but it's code that is able to be interpreted by the Javascript engine in prder to run our programs.
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Emoji in Jekyll'
 author: Sang
 categories: [Jekyll]
-image: assets/images/07_2020/emoji.jpg
+image: assets/images/webp/07_2020/emoji.webp
 rating: false
 comments: false
 ---
